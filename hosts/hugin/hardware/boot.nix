@@ -34,7 +34,7 @@
       # ACPI
       "acpi_osi=Linux"
 
-      "acpi_backlight=vendor"
+      "acpi_backlight=video"
 
       # NVMe
       "nvme_core.default_ps_max_latency_us=0"
