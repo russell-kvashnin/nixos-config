@@ -20,6 +20,8 @@
     ../../modules/development/net_tools.nix
     ../../modules/development/vscode.nix
 
+    ../../modules/productivity/base.nix
+
     ../../modules/web
 
     ./settings
