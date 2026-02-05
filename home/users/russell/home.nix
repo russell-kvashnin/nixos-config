@@ -6,6 +6,7 @@
   imports = [
     ../../modules/utils/base.nix
     ../../modules/utils/filemgmt.nix
+    ../../modules/utils/security.nix
 
     ../../modules/desktop/hyprland.nix
     ../../modules/desktop/gtk.nix
