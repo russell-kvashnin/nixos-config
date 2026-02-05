@@ -11,7 +11,7 @@ in {
     "${mod}, X, exit"
     "${mod}, F, fullscreen"
     "${mod}, Space, togglefloating"
-    "${mod} CTRL, L, exec, hyprlock"
+    "${mod} CTRL, L, exec, playerctl pause && hyprlock"
 
     # Display select
     "${mod}, period, focusmonitor, +1"

@@ -1,7 +1,7 @@
 {...}: {
   xdg.configFile."hypr/hypridle.conf".text = ''
     general {
-      lock_cmd = hyprlock
+      lock_cmd = playerctl pause && hyprlock
       before_sleep_cmd = hyprlock
       ignore_dbus_inhibit = true
     }
