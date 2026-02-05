@@ -33,8 +33,7 @@
     kernelParams = [
       # ACPI
       "acpi_osi=Linux"
-
-      "acpi_backlight=video"
+      "acpi_backlight=dell"
 
       # NVMe
       "nvme_core.default_ps_max_latency_us=0"
