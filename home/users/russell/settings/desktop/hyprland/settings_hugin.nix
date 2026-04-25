@@ -24,7 +24,9 @@ in {
 
         # Java
         "_JAVA_AWT_WM_NONREPARENTING,1"
-        "_JAVA_OPTIONS,-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.uiScale=2"
+
+        # TODO: Temporary disabled (JB IDE recommendations)
+        # "_JAVA_OPTIONS,-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.uiScale=2"
 
         # Apps
         "ELECTRON_OZONE_PLATFORM_HINT,auto"
