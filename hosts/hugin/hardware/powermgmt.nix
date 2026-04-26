@@ -1,18 +1,23 @@
 {...}: {
   powerManagement = {
-    enable = true;
-    cpuFreqGovernor = "schedutil";
-    powertop.enable = true;
+    enable = false;
+    powertop.enable = false;
   };
 
   services = {
     tlp.enable = false;
 
     auto-cpufreq = {
-      enable = true;
+      enable = false;
       settings = {
-        battery.governor = "powersave";
-        charger.governor = "performance";
+        battery = {
+          governor = "powersave";
+          turbo = "never";
+        };
+        charger = {
+          governor = "performance";
+          turbo = "auto";
+        };
       };
     };
   };

@@ -33,7 +33,8 @@
   services = {
     fwupd.enable = true;
 
-    thermald.enable = true;
+    # Let Dell handle this
+    thermald.enable = false;
 
     fstrim = {
       enable = true;
